@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "modelo_cripto",
+    "slug": "modelo_cripto",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/valor-cripto-icon.png",
+    "scheme": "modelocripto",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/expo.icon"
+    },
+    "android": {
+      "package": "com.claudianogoiana.modelocripto",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/valor-cripto-icon.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 76
+        }
+      ],
+      "expo-sqlite"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "91a6ad0e-3126-4bea-9adc-1479913e9773"
+      }
+    },
+    "owner": "claudianogoiana"
+  }
+}
